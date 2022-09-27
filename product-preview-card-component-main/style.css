@@ -1,0 +1,86 @@
+*{
+    margin:0;
+    text-decoration: none;
+    font-family: 'Fraunces', serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background-color: #f3eae3;
+}
+
+.card{
+    margin: auto;
+    width: 40%;
+    height: 50vh;
+    display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+    margin-top: 15%;
+}
+
+.picture{
+    width: 50%;
+    height: 100%;   
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("./images/image-product-desktop.jpg");
+}
+
+.picture{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.text{
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.text h1{
+    font-family: 'Fraunces', serif;
+    font-size: xx-large;
+    margin: 0 0 20px 20px;
+}
+
+.text h3{
+    margin: 20px 0 20px 20px;
+}
+
+button{
+    background-color: #3D8168;
+    border-style: none;
+    height: 50px;
+    width: 250px;
+    border-radius: 10px;
+    margin: 50px 0 0 30px;
+    color : white;
+}
+
+p{
+    size: 14px;
+    margin: 0 0 20px 20px;
+}
+
+.price{
+    display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+    justify-content: space-around;
+    margin: 0 0 20px 20px;
+}
+
+.green{
+    color: #3D8168;
+    font-size: xx-large;
+    font-family:'Fraunces', serif;
+}
+
+.striped{
+    text-decoration: line-through;
+}
